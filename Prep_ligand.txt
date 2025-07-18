@@ -1,0 +1,25 @@
+Load your ligand:
+
++ Go to File → Read Molecule
+
++ Load your ligand file (e.g., ligand.pdb or .mol2)
+
+Assign charges and check structure:
+
++ Edit → Hydrogens → add → Add Polar Only
+
++ Edit → Charges → Compute Gasteiger
+
++ Edit → Detect Root
+
++ Ligand → Torsion Tree → Detect Root
+
+Review rotatable bonds:
+
++ After detecting torsions, ADT will mark rotatable bonds in green.
+
++ You can interactively lock/unlock torsions by clicking on bonds in the viewer.
+
+Save your ligand in .pdbqt format (required for Vina):
+
++ File → Save → Write PDBQT

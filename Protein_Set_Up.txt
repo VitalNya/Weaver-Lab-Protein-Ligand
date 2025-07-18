@@ -1,0 +1,16 @@
+Protein Set Up
+
++ Set path (file -> 
+
++ Remove water molecules (edit -> delete water)
++ Remove any other unwanted molecules
+
++ Check and repair miss atoms (may receive error message, close Auto Dock vina and restart steps)
+	(edit-> misc -> check for missing atoms -> select all residues-> dismiss) 
+	(edit -> misc -> repair missing atoms ->
+	*once done a window will pop up -> save as 2 sets -> dismiss)
+
++ App polar charges
+	(edit -> charges -> add Kollman charges)
++ Check if charges have been distributed evenly (repeat till you get a warning screen saying "no residues with  non-integral charges found")
+	(edit -> charges -> check total on residues-> ** if not diffused evenly ** spread charge deficit over all atoms in residue)
